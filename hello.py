@@ -22,3 +22,7 @@ print(df)
 
 df.columns = ['Number1', 'Number2', 'Number3']
 print(df)
+
+
+df = df.sort_values('Number2', ascending=False)
+print(df)
